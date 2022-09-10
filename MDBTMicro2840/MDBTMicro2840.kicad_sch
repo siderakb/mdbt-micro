@@ -802,7 +802,7 @@
   )
 
   (no_connect (at 243.84 58.42) (uuid 609624b6-11fe-49df-9d3b-468ba7c16528))
-  (no_connect (at 243.84 60.96) (uuid 609624b6-11fe-49df-9d3b-468ba7c16528))
+  (no_connect (at 243.84 60.96) (uuid 609624b6-11fe-49df-9d3b-468ba7c16529))
 
   (wire (pts (xy 176.53 87.63) (xy 187.96 87.63))
     (stroke (width 0) (type default) (color 0 0 0 0))
