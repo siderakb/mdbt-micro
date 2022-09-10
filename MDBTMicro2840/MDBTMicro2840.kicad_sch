@@ -1,5 +1,21 @@
 (kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid c3087a07-6df0-41f9-8716-c7ea07b84a9c)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (title_block
+    (title "MDBTMicro2840")
+    (date "2022-09-10")
+    (rev "1.0")
+    (comment 1 "For Raytac MDBT50Q-1MV2/P1MV2/U1MV2 (Nordic nRF52840 module)")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
