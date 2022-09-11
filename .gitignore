@@ -26,5 +26,8 @@ fp-info-cache
 *.xml
 *.csv
 
+# Exported Gerber
+[Gg]erber/
+
 # Backup
 *-backups/
