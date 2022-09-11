@@ -34,4 +34,4 @@ using [Raytac MDBT50Q-*x*1MV2](https://www.raytac.com/product/ins.php?index_id=2
 > Almost the same as [nRFMicro 1.4](https://github.com/joric/nrfmicro/releases/tag/1.4)
 
 ## EDA
-- KiCAD
+- KiCad
