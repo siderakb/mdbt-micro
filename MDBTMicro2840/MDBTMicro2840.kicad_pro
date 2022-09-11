@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.7,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,27 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|139346000|97854000|d88a8a6b-e1da-4bd0-b65c-aad454e5a07f|e61a62d5-a628-4555-88cd-67f54475d4d7",
+        "clearance|139546000|105346000|03cede1d-6db9-4e3e-8241-be01ba5ff740|13d890d4-890a-4c86-babf-8e854408695b",
+        "clearance|139610000|107288000|5da003cd-ee5a-4e56-a598-a5e33f9f0d32|780edef9-430a-4022-a926-86d9daceb33f",
+        "clearance|139610000|96112000|07f794a8-9566-4ecc-84d0-fc140f3a21b0|cff9ef4f-bc95-4255-95f5-07a77d785be7",
+        "clearance|140906000|103024000|a8a523ee-1396-46bd-b655-1dfbcd008f93|607f0d35-150b-48df-8d4a-b45d84fd7d03",
+        "clearance|140930000|100738000|acaba0e5-be08-482f-96fc-c36b4b93880b|745888be-41ca-4bc7-a36f-d67dd34a49cc",
+        "clearance|141034000|96112000|58c58f9d-5a11-4a6b-851d-93aa9e33202e|36486d38-5147-4e59-acb0-d4c0e5c21516",
+        "clearance|141414000|107088000|95fab1fc-296e-4ae5-96e5-8647af31d2b1|dee6f9b3-8bee-4aa6-823c-3d1dfe46b0f2",
+        "clearance|142558000|103224000|85771f5f-5f7f-47da-8597-ad7806eff4b7|8cc6399e-bb9a-44a2-8527-726440b7df36",
+        "clearance|142658000|102081000|e389c109-7db2-4362-98ca-d4b5177962c4|f3afa306-3e13-4604-aca0-5c9bb2fdd2aa",
+        "clearance|142938000|100738000|8fedb590-3b04-4f7e-b5eb-66ac1ef40b85|7b2891be-2e15-4482-b95d-a28012b43804",
+        "clearance|142938000|95912000|b3d9891f-8317-49a9-bda7-be7ad643757f|70aa7e17-e10f-4d65-8d42-663585d44c52",
+        "clearance|144299000|98870000|1469c1e3-c2e2-4e94-bdda-cc646010c005|03346e15-27c9-4c8e-9752-2331b6f81a9b",
+        "clearance|144499000|97218000|f0141d3c-c641-488e-b88b-d3e14313e20a|ddb37def-15c3-407e-858a-7f9731a50bd0",
+        "clearance|145669000|103573000|b7261c46-86ad-4585-8abd-99dfb747abd8|d65956e4-1279-4ffc-85f5-0a001ae392b8",
+        "clearance|145669000|104648000|d65956e4-1279-4ffc-85f5-0a001ae392b8|f087ddc9-094b-4894-aa0f-85e04fb3e2dc",
+        "clearance|145669000|105648000|f087ddc9-094b-4894-aa0f-85e04fb3e2dc|2df9c90a-946a-430c-8b41-1968ea5471b6",
+        "clearance|147166000|103695000|a0ccbab8-0120-4112-b29e-279abb6cd296|6b3db3ad-8839-4f87-8c11-61fc94ca2824",
+        "items_not_allowed|134620000|109220000|f5ec9d7f-8565-4c23-b9af-ea8681d972a3|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -63,7 +83,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -128,7 +148,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.65,
           "drill": 0.3
         }
       ],
@@ -368,7 +388,30 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.15,
+        "via_diameter": 0.56,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "nets": [
+          "GND",
+          "VBAT",
+          "VBUS",
+          "nRF_VDD"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
