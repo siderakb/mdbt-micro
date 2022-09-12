@@ -1,6 +1,6 @@
 # MDBTMicro
 
-MDBTMicro is an alternative to [nRFMicro](https://github.com/joric/nrfmicro)/Pro Micro board.
+*MDBTMicro2840* is an alternative to [nRFMicro](https://github.com/joric/nrfmicro)/Pro Micro board.
 
 It's based on [Raytac MDBT50Q-*x*1MV2](https://www.raytac.com/product/ins.php?index_id=24) nRF52840 module, with USB Type-C and LiPo charger.
 
