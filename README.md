@@ -59,8 +59,8 @@ Go to [Releases](https://github.com/ziteh/mdbt-micro/releases) for schematic and
 | U3\*     | MDBT50Q Module     | Raytac MDBT50Q                      | 1   |
 | X1       | 32.768kHz          | 1610                                | 1   |
 
-> - D1, LD1, R1, R2, and U2 is not necessary if LiPo charger is not required. 
-> - R3 and R4 is not necessary if LiPo battery monitor is not required.
+> - D1, LD1, R1, R2, and U2 are not necessary if LiPo charger is not required. 
+> - R3 and R4 are not necessary if LiPo battery monitor is not required.
 > - Adjust the LiPo charging current with the value of R2.
 >   - 20 kΩ: 50 mA
 >   - 10 kΩ: 100 mA
