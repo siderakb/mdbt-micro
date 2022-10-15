@@ -17,7 +17,7 @@ Go to [Releases](https://github.com/ziteh/mdbt-micro/releases) for schematic and
 ![](https://i.imgur.com/ar5XGxx.jpg)
 
 ## Pinout
-| MDBTMicro-50Q 1.0 | nRFMicro 1.4 | Pro Micro |    <-->     | Pro Micro | nRFMicro 1.4 | MDBTMicro-50Q 1.0 |
+| MDBTMicro-50Q 1.1 | nRFMicro 1.4 | Pro Micro |    <-->     | Pro Micro | nRFMicro 1.4 | MDBTMicro-50Q 1.1 |
 | :---------------: | :----------: | :-------: | :---------: | :-------: | :----------: | :---------------: |
 |        GND        |     GND      |    --     |             |    --     |     VBAT     |       VBAT        |
 |       P0.06       |    P0.06     |   D1/Tx   |             |    RAW    |     VBAT     |    VBUS (USB)     |
