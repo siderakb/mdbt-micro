@@ -1,7 +1,7 @@
 # MDBTMicro
 *MDBTMicro-50Q* is an alternative board to [nRFMicro](https://github.com/joric/nrfmicro)/Pro Micro.
 
-It has USB Type-C and optional LiPo charger, uses Raytac [MDBT50Q-*x*1MV2](https://www.raytac.com/product/ins.php?index_id=24) nRF52840 module (or [MDBT50Q-*x*512K](https://www.raytac.com/product/ins.php?index_id=95) nRF52833 module) instead of E73-2G4M08S1 nRF Bluetooth module.
+It has USB Type-C and optional LiPo charger, uses Raytac [MDBT50Q-*x*1MV2](https://www.raytac.com/product/ins.php?index_id=24) nRF52840 module (or [MDBT50Q-*x*512K](https://www.raytac.com/product/ins.php?index_id=95) nRF52833 module) instead of E73-2G4M08S1.
 
 Go to [Releases](https://github.com/ziteh/mdbt-micro/releases) for schematic and Gerber files.
 
