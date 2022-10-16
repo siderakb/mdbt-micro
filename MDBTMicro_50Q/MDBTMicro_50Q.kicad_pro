@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.8,
-          "width": 0.8
+          "height": 0.62,
+          "width": 0.56
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -56,7 +56,9 @@
         }
       ],
       "drc_exclusions": [
-        "items_not_allowed|134620000|109220000|f5ec9d7f-8565-4c23-b9af-ea8681d972a3|00000000-0000-0000-0000-000000000000"
+        "copper_edge_clearance|51356200|43828000|40ec1f8c-2b1c-4b53-b407-10424bc29c11|c521c84a-668b-44f9-8059-96272c7838c8",
+        "copper_edge_clearance|51356200|54978000|55cd8bac-48cf-47c7-948e-c2c8405931fb|00dbeaa3-2a11-49fd-b478-51d381181b28",
+        "items_not_allowed|67183000|48895000|f5ec9d7f-8565-4c23-b9af-ea8681d972a3|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
