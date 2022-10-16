@@ -11,7 +11,7 @@ Go to [Releases](https://github.com/ziteh/mdbt-micro/releases) for schematic and
 ## PCB
 | Front                                | Back                                 |                                      |
 | ------------------------------------ | ------------------------------------ | ------------------------------------ |
-| ![](https://i.imgur.com/tczSb7E.jpg) | ![](https://i.imgur.com/03F3mQp.jpg) | ![](https://i.imgur.com/hpRaWwL.png) |
+| ![](https://i.imgur.com/tczSb7E.jpg) | ![](https://i.imgur.com/F20Lko3.jpg) | ![](https://i.imgur.com/hpRaWwL.png) |
 
 ## Pinout
 | MDBTMicro-50Q `1.2` | nRFMicro `1.4` | Pro Micro |    <-->     | Pro Micro | nRFMicro `1.4` | MDBTMicro-50Q `1.2` |
