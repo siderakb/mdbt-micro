@@ -1,7 +1,7 @@
 # MDBTMicro
 *MDBTMicro-50Q* is an alternative board to [nRFMicro](https://github.com/joric/nrfmicro)/Pro Micro.
 
-It has USB Type-C and optional LiPo charger, uses Raytac [MDBT50Q-*x*1MV2](https://www.raytac.com/product/ins.php?index_id=24) nRF52840 module (or [MDBT50Q-*x*512K](https://www.raytac.com/product/ins.php?index_id=95) nRF52833 module) instead of E73-2G4M08S1 nRF Bluetooth module.
+It has USB Type-C and optional LiPo charger, uses Raytac [MDBT50Q-*x*1MV2](https://www.raytac.com/product/ins.php?index_id=24) nRF52840 module (or [MDBT50Q-*x*512K](https://www.raytac.com/product/ins.php?index_id=95) nRF52833 module) instead of E73-2G4M08S1.
 
 Go to [Releases](https://github.com/ziteh/mdbt-micro/releases) for schematic and Gerber files.
 
@@ -48,28 +48,30 @@ Go to [Releases](https://github.com/ziteh/mdbt-micro/releases) for schematic and
 > Almost the same as [nRFMicro 1.4](https://github.com/joric/nrfmicro/releases/tag/1.4)
 
 ## BOM
-| Ref(s)       | Value/Name             | Package/Footprint                   | Qty |
-| ------------ | ---------------------- | ----------------------------------- | --- |
-| C1, C2       | 1uF                    | SMD 0402 (1005 Metric)              | 2   |
-| C3, C4       | 12pF                   | SMD 0402 (1005 Metric)              | 2   |
-| R1           | 100k                   | SMD 0402 (1005 Metric)              | 1   |
-| R2\*, R4, R5 | 1k                     | SMD 0402 (1005 Metric)              | 3   |
-| R3\*         | *Rprog*                | SMD 0402 (1005 Metric)              | 1   |
-| R6\*         | 820k                   | SMD 0402 (1005 Metric)              | 1   |
-| R7\*, R8     | 2M                     | SMD 0402 (1005 Metric)              | 2   |
-| R9, R10      | 5.1k                   | SMD 0402 (1005 Metric)              | 2   |
-| LD1\*        | Red (Charge indicator) | SMD 0402 (1005 Metric)              | 1   |
-| LD2          | Blue (User LED)        | SMD 0402 (1005 Metric)              | 1   |
-| LD3          | Green (VBUS indicator) | SMD 0402 (1005 Metric)              | 1   |
-| D1           | 1N5819                 | SOD-323F                            | 1   |
-| J2           | USB Type-C             | USB Type-C Mid-Mount Receptacle 16P | 1   |
-| JP1          | Solder Jumper          | 1.0x1.5mm                           | 1   |
-| Q1, Q2       | AO3407                 | SOT-23                              | 2   |
-| U1           | XC6220B331MR-G         | SOT-23-5                            | 1   |
-| U2\*         | MDBT50Q Module         | Raytac MDBT50Q                      | 1   |
-| U3\*         | TP4057                 | SOT-23-6                            | 1   |
-| X1           | 32.768kHz              | 3.2x1.5mm                           | 1   |
+| Ref(s)   | Value/Name             | Package/Footprint                   | Qty |
+| -------- | ---------------------- | ----------------------------------- | --- |
+| C1, C2   | 1uF                    | SMD 0603 (1608 Metric)              | 2   |
+| C3, C4   | 12pF                   | SMD 0603 (1608 Metric)              | 2   |
+| R1       | 100k                   | SMD 0603 (1608 Metric)              | 1   |
+| R2\*, R4 | 1k                     | SMD 0603 (1608 Metric)              | 2   |
+| R5       | 1k                     | **SMD 0402 (1005 Metric)**\*        | 1   |
+| R3\*     | *Rprog*                | SMD 0603 (1608 Metric)              | 1   |
+| R6\*     | 820k                   | SMD 0603 (1608 Metric)              | 1   |
+| R7\*, R8 | 2M                     | SMD 0603 (1608 Metric)              | 2   |
+| R9, R10  | 5.1k                   | SMD 0603 (1608 Metric)              | 2   |
+| LD1\*    | Red (Charge indicator) | SMD 0603 (1608 Metric)              | 1   |
+| LD2      | Blue (User LED)        | SMD 0603 (1608 Metric)              | 1   |
+| LD3      | Green (VBUS indicator) | **SMD 0402 (1005 Metric)**\*        | 1   |
+| D1       | 1N5819                 | SOD-323F                            | 1   |
+| J2       | USB 2.0 Type-C         | USB Type-C Mid-Mount Receptacle 16P | 1   |
+| JP1      | Solder Jumper          | 1.0x1.5mm                           | 1   |
+| Q1, Q2   | AO3407                 | SOT-23                              | 2   |
+| U1       | XC6220B331MR-G         | SOT-23-5                            | 1   |
+| U2\*     | MDBT50Q Module         | Raytac MDBT50Q                      | 1   |
+| U3\*     | TP4057                 | SOT-23-6                            | 1   |
+| X1       | 32.768kHz              | 3.2x1.5mm                           | 1   |
 
+> - Please note that the footprint of R5 and LD3 is 0402.
 > - R2, R3, U3 and LD1 are not necessary if LiPo charger is not required. 
 > - R6 and R7 are not necessary if LiPo battery monitor is not required.
 > - Adjust the LiPo charging current with the value of R3.
