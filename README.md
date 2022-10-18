@@ -14,7 +14,7 @@ Go to [Releases](https://github.com/ziteh/mdbt-micro/releases) for schematic and
 | ![](https://i.imgur.com/tczSb7E.jpg) | ![](https://i.imgur.com/F20Lko3.jpg) | ![](https://i.imgur.com/hpRaWwL.png) |
 
 ## Pinout
-| MDBTMicro-50Q `1.2` | nRFMicro `1.4` | Pro Micro |    <-->     | Pro Micro | nRFMicro `1.4` | MDBTMicro-50Q `1.2` |
+| MDBTMicro-50Q `1.3` | nRFMicro `1.4` | Pro Micro |    <-->     | Pro Micro | nRFMicro `1.4` | MDBTMicro-50Q `1.3` |
 | :-----------------: | :------------: | :-------: | :---------: | :-------: | :------------: | :-----------------: |
 |         GND         |      GND       |    --     |             |    --     |      VBAT      |        VBAT         |
 |        P0.06        |     P0.06      |   D1/Tx   |             |    RAW    |      VBAT      |     VBUS (USB)      |
@@ -44,7 +44,7 @@ Go to [Releases](https://github.com/ziteh/mdbt-micro/releases) for schematic and
 |        SWDIO        |       --       |    --     |     TP9     |           |                |                     |
 |        SWCLK        |       --       |    --     |    TP10     |           |                |                     |
 
-> Italics in brackets for nRF52833 pins, otherwise nRF52840.  
+> Italics in brackets for MDBT50Q-*x*512K (nRF52833) pins, otherwise MDBT50Q-*x*1MV2 (nRF52840).  
 > Almost the same as [nRFMicro 1.4](https://github.com/joric/nrfmicro/releases/tag/1.4)
 
 ## BOM
@@ -87,3 +87,9 @@ Go to [Releases](https://github.com/ziteh/mdbt-micro/releases) for schematic and
 - JP1
   - nRF52840: Open
   - nRF52833: Close
+
+## Board Characteristics
+- Copper layer count: 2
+- Board overall dimensions: 33.02 mm x 17.78 mm
+- Min track/spacing: 0.127 mm / 0.127 mm
+- Min hole diameter: 0.3 mm
