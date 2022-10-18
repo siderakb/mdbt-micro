@@ -1,5 +1,12 @@
 # Changelog
 
+## \[[1.3.0](https://github.com/ziteh/mdbt-micro/releases/tag/50q-v1.3)\] 2022-Oct-18
+## Added
+- USB D+/- test pads added.
+
+## Changed
+- Replace all capacitors, resistors and LEDs footprint back to 0603 again, except R5 and LD3.
+
 ## \[[1.2.0](https://github.com/ziteh/mdbt-micro/releases/tag/50q-v1.2)\] 2022-Oct-16
 ## Fixed
 - Fixed the ProMicro board 2.54mm pin headers hole size from 0.7mm to 1mm.
