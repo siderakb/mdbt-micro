@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.62,
-          "width": 0.56
+          "height": 0.7,
+          "width": 0.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -479,6 +479,7 @@
         "nets": [
           "EXT_VCC",
           "GND",
+          "Net-(C1-Pad1)",
           "VBAT",
           "VBUS",
           "nRF_VDD"
