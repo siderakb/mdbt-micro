@@ -5,7 +5,7 @@ It has USB Type-C and optional LiPo charger, uses Raytac [MDBT50Q-*x*1MV2](https
 
 Go to [Releases](https://github.com/ziteh/mdbt-micro/releases) for schematic and Gerber files.
 
-> [Open Source Hardware](https://www.oshwa.org/definition/)  
+> A part of [ErgoSNM keyboard](https://github.com/ziteh/ergo-snm-keyboard).  
 > EDA: KiCad  
 
 ## PCB
