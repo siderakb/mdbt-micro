@@ -102,4 +102,4 @@ These files without warranty of any kind, use at your own risk, it is recommende
 
 For the full statement, please see [LICENSE](./LICENSE).
 
-[release]: https://github.com/ziteh/next-micro/releases
+[release]: https://github.com/ziteh/mdbt-micro/releases
