@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0]
+### Removed
+- Remove USB D+/- test pads.
+
+### Changed
+- Change SWD connecter footprint, makes it easier to solder.
+
 ## [1.3.0] 2022-Oct-18
 ### Added
 - USB D+/- test pads added.
