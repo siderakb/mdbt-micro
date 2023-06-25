@@ -6,9 +6,9 @@
 
 It has USB Type-C and LiPo charger, uses Raytac [MDBT50Q-*x*1MV2](https://www.raytac.com/product/ins.php?index_id=24) nRF52840 module (or [MDBT50Q-*x*512K](https://www.raytac.com/product/ins.php?index_id=95) nRF52833 module) instead of E73-2G4M08S1.
 
-Go to [Releases](https://github.com/ziteh/mdbt-micro/releases) for schematic and Gerber files.
+Go to [Releases](https://github.com/siderakb/mdbt-micro/releases) for schematic and Gerber files.
 
-> A part of [ErgoSNM keyboard](https://github.com/ziteh/ergo-snm-keyboard) project.  
+> A part of [ErgoSNM keyboard](https://github.com/siderakb/ergo-snm-keyboard) project.  
 > EDA: KiCad  
 
 ## PCB
